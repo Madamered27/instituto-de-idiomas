@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
@@ -16,4 +16,33 @@ footer {
   border-top: black 10px solid;
   text-align: center;
   margin-top: 10px;
+}
+
+footer li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor-footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+
+.contenedor-footer div {
+  width: calc(33, 3% - 10px);
+}
+
+.contenedor-footer div h5 {
+  margin: 15px 0px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.redes li{
+  display: inline-block;
 }
