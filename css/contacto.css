@@ -88,16 +88,12 @@ textarea {
 }
 
 .ubicacion h2{
-    text-align: center;
     margin-top: 50px;
     margin-bottom: 15px;
-    position: absolute;
-    right: 50%;
-    top: 20px;
 }
 
 .ubicacion iframe{
-    margin-top: 110px;
+    margin-top: 19px;
     margin-bottom: 80px;
     width: 100%;  
 }
