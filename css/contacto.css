@@ -1,0 +1,103 @@
+.datos-contacto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.datos-contacto h2 {
+  margin: 25px 0px 5px;
+}
+
+#lista-datos-contacto {
+  margin: 20px 0px;
+}
+
+#lista-datos-contacto li {
+  padding: 1px 0px;
+}
+
+.datos-contacto article {
+  width: calc(50% - 15px);
+}
+
+.datos-contacto form {
+  position: relative;
+}
+
+.datos-contacto form input,
+textarea {
+  width: 95%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px rgb(189, 186, 186);
+  padding: 5px;
+}
+
+#enviar {
+  width: auto;
+  padding: 6px 8px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(83, 74, 74);
+  font-weight: bold;
+  position: absolute;
+  right: 40px;
+}
+
+#lista-redes {
+  margin-top: 5px;
+}
+
+#lista-redes li {
+  display: inline-block;
+}
+
+#lista-redes a{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: block;
+}
+
+.facebook {
+  background-image: url(../img/icono-fb.jpg);
+  background-size: cover;
+}
+
+.instagram {
+    background-image: url(../img/icono-ig.jpg);
+    background-size: cover;
+}
+
+.twitter {
+  background-image: url(../img/icono-tw.jpg);
+  background-size: cover;
+}
+
+.youtube{
+    background-image: url(../img/icono-yt.jpg);
+    background-size: cover;
+}
+
+.whatsapp{
+    background-image: url(../img/icono-wp.jpg);
+    background-size: cover;
+}
+
+.ubicacion{
+    position: relative;
+}
+
+.ubicacion h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 50%;
+    top: 20px;
+}
+
+.ubicacion iframe{
+    margin-top: 110px;
+    margin-bottom: 80px;
+    width: 100%;  
+}

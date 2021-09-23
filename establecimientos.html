@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c2049a3cea.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/establecimientos.css">
     <title>Establecimientos</title>
 </head>
 <body>
@@ -23,18 +24,34 @@
         </nav>
     </header>
     <main>
-        <h1>Establecimientos</h1>
-        <section>
+        <h1>ESTABLECIMIENTOS</h1>
+        <section class= "barraBusqueda">
+            <form action="#" method="POST">
+                <input type="search"  name="busqueda" placeholder="Filtra por provincia" >
+                <input type="submit">
+             </form>
+        </section>
+
+        <section class="contenedorEstablecimiento">
             <article>
                 <img src="img/cit-sede.png" alt="cit" width="400" height="300">
+            </article>
+
+            <article >
+                <h2>ESTABLECIMIENTO</h2>
                 <p>CIT – Centro de Idiomas Teplitzky´s</p>
                 <p>Catamarca 1210</p>
                 <p>Corrientes</p>
                 <p>Idiomas: Italiano, Francés e Inglés</p>
                 <a href="detalle-establecimiento.html"><button>Ver Detalle</button></a>
             </article>
+
             <article>
                 <img src="img/isle-sede.png" alt="isle" width="400" height="300">
+            </article>
+
+            <article>
+                <h2>ESTABLECIMIENTO</h2>
                 <p>Instituto Superior de Lenguas Extranjeras</p>
                 <p>Carlos Pellegrini 1515</p>
                 <p>Buenos Aires</p>
@@ -43,21 +60,29 @@
             </article>
             <article>
                 <img src="img/cil-sede.jpg" alt="cil" width="400" height="300">
+            </article>
+            <article>
+                <h2>ESTABLECIMIENTO</h2>
                 <p>Centro Integral de Lenguas</p>
                 <p>León 1753</p>
                 <p>Córdoba</p>
                 <p>Idiomas: Francés, Inglés y Alemán </p>
                 <a href="detalle-establecimiento.html"><button>Ver Detalle</button></a>
             </article>
+
+            <article>
             <img src="img/intercultural-sede.png" alt="Intercultural" width="400px" height="300">
+        </article>
+
+        <article>
+             <h2>ESTABLECIMIENTO</h2>
                 <p>Intercultural – lenguas extranjeras</p>
                 <p>Pedro Vargas 631</p>
                 <p>Mendoza</p>
                 <p>Idiomas: Italiano e Inglés</p>
                 <a href="detalle-establecimiento.html"><button>Ver Detalle</button></a>
-            <article>
-                <img src="" alt="">
             </article>
+            
         </section>
     </main>
     <footer class="contenedor-footer">
@@ -65,8 +90,8 @@
             <h5>Datos del grupo</h5>
             <p>Rinaldi Stefania - 38.522.183</p>
             <p>Cristian Feldman - 33.557.055</p>
-            <p>Pugliese Federico - DNI</p>
-            <p>Navarro Francisco Javier - DNI</p>
+            <p>Pugliese Federico - 38.200.197</p>
+            <p>Navarro Francisco Javier - 42.375.698</p>
         </div>
         <div class="menu-inferior">
             <h5>Menu Inferior</h5>
@@ -78,9 +103,11 @@
         <div class="redes">
             <h5>Redes Sociales</h5>
             <ul>
-                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li>
-                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="mailto:instituto.isi@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://www.youtube.com/" class="youtube" target="_blank"></a></li>
+                <li><a href="https://www.instagram.com/" class="instagram" target="_blank"></a></li>
+                <li><a href="https://www.facebook.com/" class="facebook" target="_blank"></a></li>
+                <li><a href="https://twitter.com/" class="twitter" target="_blank"></a></li>
+                <li><a href="https://web.whatsapp.com/" class="whatsapp" target="_blank"></a></li>
             </ul>
         </div>
     </footer>

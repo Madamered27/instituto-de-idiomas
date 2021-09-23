@@ -3,27 +3,86 @@
   padding: 0px;
 }
 
-header {
-  background-color: rgb(71, 199, 135);
-  padding: 10px;
-  margin-bottom: 10px;
-  border-bottom: black 10px solid;
+h1{
+  text-align: center;
+  margin-top: 20px;
 }
 
-footer {
-  background-color: rgb(71, 199, 135);
+h2{
+  margin-top: 25px;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background-color: #074168;
   padding: 10px;
-  border-top: black 10px solid;
-  text-align: center;
+  margin-bottom: 5px;
+  border-bottom: rgba(48, 47, 45, 0.952) solid;
+  color: aliceblue;
+}
+
+
+
+
+/* INICIO BARRA NAV */
+
+#menu_principal ul{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#menu_principal li{
+  list-style: none;
+  padding: 5px 1px;
+  
+}
+#menu_principal a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 7px;
+  margin: 0px 7px;
+  background-color: #074168;
+  transition: background-color 0.7s, color 0.5s, scale 0.7s;
+  border-radius: 5px;
+  
+}
+#menu_principal a:hover {
+  color: black;
+  background-color:#fafcfd;
+}
+
+#menu_principal li:hover{
+  transform: scale(1.2);
+}
+
+
+/* FIN BARRA NAV */
+
+
+/* INICIO FOOTER */
+
+footer{
+  background-color: #074168;
+  color: white;
+  padding: 10px;
   margin-top: 10px;
 }
+footer a{
+  color: white;
+}
 
-footer li {
+li {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
+a{
+  text-decoration: none
 }
 
 .contenedor-footer {
@@ -43,6 +102,41 @@ a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.redes li{
+.redes li {
   display: inline-block;
 }
+
+.redes a{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: block;
+  
+}
+
+.facebook {
+  background-image: url(../img/icono-fb.jpg);
+  background-size: cover;
+}
+
+.instagram {
+  background-image: url(../img/icono-ig.jpg);
+  background-size: cover;
+}
+
+.twitter {
+  background-image: url(../img/icono-tw.jpg);
+  background-size: cover;
+}
+
+.youtube {
+  background-image: url(../img/icono-yt.jpg);
+  background-size: cover;
+}
+
+.whatsapp {
+  background-image: url(../img/icono-wp.jpg);
+  background-size: cover;
+}
+
+/* FIN FOOTER */
