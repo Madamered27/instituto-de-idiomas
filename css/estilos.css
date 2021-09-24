@@ -3,13 +3,14 @@
   padding: 0px;
 }
 
-h1{
-  text-align: center;
-  margin-top: 20px;
+body{
+  background-image: url(../img/fondo.png);
 }
 
-h2{
-  margin-top: 25px;
+h1,h2{
+  text-align: center;
+  padding: 25px 10px;
+  margin: 2px 20px;
 }
 
 main {
@@ -25,6 +26,28 @@ header {
   color: aliceblue;
 }
 
+header > img{
+  width: 91px;
+  padding: 2px 5px;
+}
+
+footer{
+  background-color: #074168;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+footer a{
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none
+}
 
 
 
@@ -66,25 +89,6 @@ header {
 
 
 /* INICIO FOOTER */
-
-footer{
-  background-color: #074168;
-  color: white;
-  padding: 10px;
-  margin-top: 10px;
-}
-footer a{
-  color: white;
-}
-
-li {
-  list-style: none;
-}
-
-a{
-  text-decoration: none
-}
-
 .contenedor-footer {
   display: flex;
   justify-content: space-around;
@@ -138,5 +142,4 @@ a{
   background-image: url(../img/icono-wp.jpg);
   background-size: cover;
 }
-
 /* FIN FOOTER */
