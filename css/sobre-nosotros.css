@@ -1,0 +1,21 @@
+#somos{
+    text-align: center;
+    padding: 16px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  #columnasProfesores{
+    column-count:3;
+    column-gap:100px;
+    column-rule:none;
+    -webkit-column-count:3;
+    -webkit-column-gap:25pxpx;
+    -webkit-column-rule:none;
+    text-align: left;
+    padding: 60px;
+  }
+  
+
+  
+  

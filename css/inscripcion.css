@@ -1,0 +1,52 @@
+
+p{
+    text-align: center;
+}
+
+#formulario{
+    padding: 5px 20px;
+    margin: 10px 30px;
+}
+
+.contenedorFormulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.contenedorFormulario div{
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+.contenedorFormulario label{
+    width: 48%;
+    padding: 2px 3px;
+    margin: 2px 10px;
+    display: inline;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.contenedorFormulario #tel,#nombre,#prov,#apellido,#email,#ciudad {
+    width: 90%;
+    padding: 4px 2px;
+    margin: 9px 6px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.contenedorFormulario #button{
+    display: block;
+    
+    color: white;
+    background: #074168;
+    border-radius: 12px;
+    width: 15%;
+    height: 29px;
+    position: relative;
+    left: 416px;
+}

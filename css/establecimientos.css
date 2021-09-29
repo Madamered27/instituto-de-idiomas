@@ -1,0 +1,19 @@
+.contenedorEstablecimiento{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 100px;
+  }
+  
+  .contenedorEstablecimiento article{
+  width: calc(40% - 300px);
+  box-sizing: border-box;
+  }
+  
+  .barraBusqueda {
+      height: 100%;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+  }

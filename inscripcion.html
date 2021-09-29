@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c2049a3cea.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/inscripcion.css">
     <title>Inscripción</title>
 </head>
+
 <body>
     <header>
-        <a href="index.html"><img src="img/logo.jpg" alt="Logo" height="50px"></a>
+        <a href="index.html"><img src="img/logo.svg" alt="Logo" height="50px"></a>
         <nav id="menu_principal">
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
@@ -26,27 +29,30 @@
         <h1>Inscripción</h1>
         <section>
             <article>
-                <p>Inscripcion al curso de Inglés en la sede "Intercultural – lenguas extranjeras" en el horario de Martes y Sábado de 13hs a 15hs. El curso de ingles inicia el dia 25/09/2021. Precio final del curso es de $3000</p>
-                <form action="/inscripcion-interaccion.html">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" placeholder="Ingresar nombre " autofocus required>
-                    <br><br>
-                    <label for="apellido">Apellido</label>
-                    <input type="text" id="nombre" placeholder="Ingresar apellido" required>
-                    <br><br>
-                    <label for="tel">Teléfono</label>
-                    <input type="text" name="tel" id="tel" placeholder="Ingresar teléfono" required>
-                    <br><br>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Ingresar email" required>
-                    <br><br>
-                    <label for="prov">Provincia</label>
-                    <input type="text" name="prov" id="prov" placeholder="Ingresar provincia" required>
-                    <br><br>
-                    <label for="ciudad">Ciudad</label>
-                    <input type="text" name="ciudad" id="ciudad" placeholder="Ingresar ciudad" required>
-                    <br><br>
-                    <button>Inscribite</button>
+                <p>Inscripcion al curso de Inglés en la sede "Intercultural – lenguas extranjeras" </p>
+                <p>en el horario de Martes y Sábado de 13hs a 15hs.</p> 
+                <p>El curso de ingles inicia el dia 25/09/2021.</p>
+                <p>Precio final del curso es de $3000</p>
+            </article>
+            <article id="formulario">
+                <form class="contenedorFormulario" action="/inscripcion-interaccion.html">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingresar nombre " autofocus required>
+                        <label for="tel">Teléfono</label>
+                        <input type="text" name="tel" id="tel" placeholder="Ingresar teléfono" required>
+                        <label for="prov">Provincia</label>
+                        <input type="text" name="prov" id="prov" placeholder="Ingresar provincia" required>
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" placeholder="Ingresar apellido" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Ingresar email" required>
+                        <label for="ciudad">Ciudad</label>
+                        <input type="text" name="ciudad" id="ciudad" placeholder="Ingresar ciudad" required>
+                        <input type="button" id="button" value="INSCRIBITE">
+                    </div>
                 </form>
             </article>
         </section>
@@ -56,8 +62,8 @@
             <h5>Datos del grupo</h5>
             <p>Rinaldi Stefania - 38.522.183</p>
             <p>Cristian Feldman - 33.557.055</p>
-            <p>Pugliese Federico - DNI</p>
-            <p>Navarro Francisco Javier - DNI</p>
+            <p>Pugliese Federico - 38.200.197</p>
+            <p>Navarro Francisco Javier - 42.375.698</p>
         </div>
         <div class="menu-inferior">
             <h5>Menu Inferior</h5>
@@ -69,11 +75,14 @@
         <div class="redes">
             <h5>Redes Sociales</h5>
             <ul>
-                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li>
-                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="mailto:instituto.isi@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://www.youtube.com/" class="youtube" target="_blank"></a></li>
+                <li><a href="https://www.instagram.com/" class="instagram" target="_blank"></a></li>
+                <li><a href="https://www.facebook.com/" class="facebook" target="_blank"></a></li>
+                <li><a href="https://twitter.com/" class="twitter" target="_blank"></a></li>
+                <li><a href="https://web.whatsapp.com/" class="whatsapp" target="_blank"></a></li>
             </ul>
         </div>
     </footer>
 </body>
+
 </html>

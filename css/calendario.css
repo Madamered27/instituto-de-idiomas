@@ -1,0 +1,31 @@
+#filtrar-sede{
+    text-align: end;
+    margin: 10px;
+  }
+  .contenedor-calendario li{
+    list-style: none;
+  }
+  .contenedor-calendario{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+  .contenedor-calendario article{
+    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  button{
+    background-color: grey;
+    padding: 5px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+  }
+  button:hover{
+    background-color: blue;
+  }
+  .precio{
+    font-weight: bold;
+  }

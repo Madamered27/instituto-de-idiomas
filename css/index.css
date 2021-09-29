@@ -1,0 +1,163 @@
+.slider {
+    background-color: grey;
+    width: 61%;
+    height: 250px;
+    background-image: url(../img/gente-estudiando.jpg);
+    background-size: cover;
+    background-position: center;
+    margin:auto;
+}
+
+.instrucciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.instrucciones > .buscar,.seleccionar,.anotarse{
+    box-sizing: border-box;
+}
+
+.instrucciones img {
+    height: 150px;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor article{
+    width: calc(20% - 10px);
+    box-sizing: border-box;
+}
+
+.contenedor iframe {
+    width: -moz-available;
+    border: 0;
+    height: 120px;
+    border: 2px black solid;
+    margin: auto;
+}
+
+.instrucciones p {
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    background-color: grey;
+    padding: 2px;
+    margin: 0 auto;
+    width: 100px;
+}
+
+#formulario{
+    background-color: grey;
+    padding: 5px 20px;
+    margin: 10px 30px;
+    border: #000 2px solid;
+}
+
+#formulario h2{
+    color: #faf1f1e3;
+    text-align: center;
+    text-decoration: solid;
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.contenedorFormulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.contenedorFormulario div{
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+.contenedorFormulario select {
+    width: 90%;
+    padding: 4px 2px;
+    margin: 9px 6px;
+    color: #fff;
+    display: inline-block;
+    background-color: grey;
+    border: 1px solid #000;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.contenedorFormulario input#precio{
+    width: 30%;
+    padding: 4px 16px;
+    margin: 8px 7px;
+    display: inline-block;
+    color: #fff;
+    background-color: grey;
+    border: 1px solid #000;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.contenedorFormulario label{
+    width: 48%;
+    padding: 2px 3px;
+    margin: 2px 10px;
+    display: inline;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.contenedorFormulario output {
+    width: 109%;
+    display: block;
+    color: #fff;
+    padding: 2px 10px;
+    margin: 2px 10px;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background-color: grey;
+}
+
+.instituto1{
+    background-image: url(../img/cit-sede.png);
+}
+
+.instituto2{
+    background-image: url(../img/isle-sede.png);
+}
+
+.instituto3{
+    background-image: url(../img/cil-sede.jpg);
+}
+
+.instituto4{
+    background-image: url(../img/intercultural-sede.png);
+}
+
+.instituto1,.instituto2,.instituto3,.instituto4{
+    position: relative;
+    width: -moz-available;
+    height: 120px;
+    border: 2px black solid;
+    background-size: cover;
+}
+
+.nombre{
+    display: inline;
+    border: black 2px solid;
+    margin: 5px 1px;
+    background-color: #070707a6;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+}  
