@@ -35,7 +35,7 @@
                 <p>Precio final del curso es de $3000</p>
             </article>
             <article id="formulario">
-                <form class="contenedorFormulario" action="/inscripcion-interaccion.html">
+                <form class="contenedorFormulario" action="#openModal">
                     <div>
                         <label for="nombre">Nombre</label>
                         <input type="text" name="nombre" id="nombre" placeholder="Ingresar nombre " autofocus required>
@@ -51,11 +51,21 @@
                         <input type="email" name="email" id="email" placeholder="Ingresar email" required>
                         <label for="ciudad">Ciudad</label>
                         <input type="text" name="ciudad" id="ciudad" placeholder="Ingresar ciudad" required>
-                        <input type="button" id="button" value="INSCRIBITE">
+                        <button>INSCRIBITE</button>
                     </div>
                 </form>
             </article>
         </section>
+        <div class="modalDialog" id="openModal">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Gracias por su Inscripción</h2>
+                <p>Usted se ha inscripto al curso de Inglés, </p>
+                <p>en la sede "Intercultural – lenguas extranjeras" </p>
+                <p>Se le enviara un email posteriormente para ofrecerle</p>
+                <p>mas información</p>
+            </div>
+        </div>
     </main>
     <footer class="contenedor-footer">
         <div>
