@@ -18,6 +18,11 @@ footer {
   margin-top: 10px;
 }
 
+main{
+  width: 80%;
+  margin: auto;
+}
+
 footer li {
   list-style: none;
 }
@@ -45,4 +50,38 @@ a {
 
 .redes li{
   display: inline-block;
+}
+
+/* Calendario*/
+h1{
+  text-align: center ;
+  margin: 50px;
+}
+h2{
+  margin-bottom: 10px;
+}
+h4{
+  font-size: large;
+}
+
+button{
+  background-color: grey;
+  padding: 5px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+}
+button:hover{
+  background-color: blue;
+}
+.precio{
+  font-weight: bold;
+}
+
+/*DETALLE ESTABLECIMIENTOS*/
+
+h3{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
 }
