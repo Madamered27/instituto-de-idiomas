@@ -10,106 +10,103 @@
     <title>Establecimientos</title>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="img/logo.jpg" alt="Logo" height="50px"></a>
-        <nav id="menu_principal">
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="establecimientos.html">Establecimientos</a></li>
-                <li><a href="inscripcion.html">Inscripcion</a></li>
-                <li><a href="calendario.html">Calendario</a></li>
-                <li><a href="sobre-nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>ESTABLECIMIENTOS</h1>
-        <section class= "barraBusqueda">
-            <form action="#" method="POST">
-                <input type="search"  name="busqueda" placeholder="Filtra por provincia" >
-                <input type="submit">
-             </form>
-        </section>
-
-        <section class="contenedorEstablecimiento">
-            <article>
-                <img src="img/cit-sede.png" alt="cit" width="400" height="300">
-            </article>
-
-            <article >
-                <h2>ESTABLECIMIENTO</h2>
-                <p>CIT – Centro de Idiomas Teplitzky´s</p>
-                <p>Catamarca 1210</p>
-                <p>Corrientes</p>
-                <p>Idiomas: Italiano, Francés e Inglés</p>
-                <a href="detalle-establecimiento.html"><button>Ver Detalle</button></a>
-            </article>
-
-            <article>
-                <img src="img/isle-sede.png" alt="isle" width="400" height="300">
-            </article>
-
-            <article>
-                <h2>ESTABLECIMIENTO</h2>
-                <p>Instituto Superior de Lenguas Extranjeras</p>
-                <p>Carlos Pellegrini 1515</p>
-                <p>Buenos Aires</p>
-                <p>Idiomas: Italiano, Francés, Inglés y Alemán</p>
-                <a href="detalle-establecimiento.html"><button>Ver Detalle</button></a>
-            </article>
-            <article>
-                <img src="img/cil-sede.jpg" alt="cil" width="400" height="300">
-            </article>
-            <article>
-                <h2>ESTABLECIMIENTO</h2>
-                <p>Centro Integral de Lenguas</p>
-                <p>León 1753</p>
-                <p>Córdoba</p>
-                <p>Idiomas: Francés, Inglés y Alemán </p>
-                <a href="detalle-establecimiento.html"><button>Ver Detalle</button></a>
-            </article>
-
-            <article>
-            <img src="img/intercultural-sede.png" alt="Intercultural" width="400px" height="300">
-        </article>
-
+<header>
+    <img src="img/logo.svg" alt="logo">
+    <nav id="menu_principal">
+        <ul>
+            <li><a href="index.html" target="_blank" rel="noopener noreferrer">HOME</a></li>
+            <li><a href="sobre-nosotros.html" target="_blank" rel="noopener noreferrer">NOSOTROS</a></li>
+            <li><a href="establecimientos.html" target="_blank" rel="noopener noreferrer">ESTABLECIMIENTOS</a></li>
+            <li><a href="inscripcion.html" target="_blank" rel="noopener noreferrer">INSCRIPCIÓN</a></li>
+            <li><a href="calendario.html" target="_blank" rel="noopener noreferrer">CALENDARIO</a></li>
+            <li><a href="contacto.html" target="_blank" rel="noopener noreferrer">CONTACTO</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Establecimientos</h1>
+    <div class="barraBusqueda">
+        <form action="#" method="get">
+            <input type="search" placeholder="Filtro por provincia">
+            <button>Buscar</button>
+        </form>
+    </div>
+    <section class="contenedorEstablecimiento">
         <article>
-             <h2>ESTABLECIMIENTO</h2>
-                <p>Intercultural – lenguas extranjeras</p>
-                <p>Pedro Vargas 631</p>
-                <p>Mendoza</p>
-                <p>Idiomas: Italiano e Inglés</p>
-                <a href="detalle-establecimiento.html"><button>Ver Detalle</button></a>
-            </article>
-            
-        </section>
-    </main>
-    <footer class="contenedor-footer">
-        <div>
-            <h5>Datos del grupo</h5>
-            <p>Rinaldi Stefania - 38.522.183</p>
-            <p>Cristian Feldman - 33.557.055</p>
-            <p>Pugliese Federico - 38.200.197</p>
-            <p>Navarro Francisco Javier - 42.375.698</p>
-        </div>
-        <div class="menu-inferior">
-            <h5>Menu Inferior</h5>
-            <li><a href="establecimientos.html">Establecimientos</a></li>
-            <li><a href="inscripcion.html">Inscripcion</a></li>
-            <li><a href="calendario.html">Calendario</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </div>
-        <div class="redes">
-            <h5>Redes Sociales</h5>
-            <ul>
-                <li><a href="https://www.youtube.com/" class="youtube" target="_blank"></a></li>
-                <li><a href="https://www.instagram.com/" class="instagram" target="_blank"></a></li>
-                <li><a href="https://www.facebook.com/" class="facebook" target="_blank"></a></li>
-                <li><a href="https://twitter.com/" class="twitter" target="_blank"></a></li>
-                <li><a href="https://web.whatsapp.com/" class="whatsapp" target="_blank"></a></li>
-            </ul>
-        </div>
-    </footer>
+            <img src="img/cit-sede.png" alt="cit">
+        </article>
+        <article class="datosInstituto">
+            <p>CIT – Centro de Idiomas Teplitzky´s</p>
+            <p>Catamarca 1210</p>
+            <p>Corrientes</p>
+            <p>Idiomas: Italiano, Francés e Inglés</p>
+            <a href="detalle-establecimiento-cit.html">
+                <button>Ver Detalle</button>
+            </a>
+        </article>
+        <article>
+            <img src="img/isle-sede.png" alt="isle">
+        </article>
+        <article class="datosInstituto">
+            <p>Instituto Superior de Lenguas Extranjeras</p>
+            <p>Carlos Pellegrini 1515</p>
+            <p>Buenos Aires</p>
+            <p>Idiomas: Italiano, Francés, Inglés y Alemán</p>
+            <a href="detalle-establecimiento-isle.html">
+                <button>Ver Detalle</button>
+            </a>
+        </article>
+        <article>
+            <img src="img/cil-sede.jpg" alt="cil">
+        </article>
+        <article class="datosInstituto">
+            <p>Centro Integral de Lenguas</p>
+            <p>León 1753</p>
+            <p>Córdoba</p>
+            <p>Idiomas: Francés, Inglés y Alemán </p>
+            <a href="detalle-establecimiento-cil.html">
+                <button>Ver Detalle</button>
+            </a>
+        </article>
+        <article>
+            <img src="img/intercultural-sede.png" alt="Intercultural">
+        </article>
+        <article class="datosInstituto">
+            <p>Intercultural – lenguas extranjeras</p>
+            <p>Pedro Vargas 631</p>
+            <p>Mendoza</p>
+            <p>Idiomas: Italiano e Inglés</p>
+            <a href="detalle-establecimiento-intercultural.html">
+                <button>Ver Detalle</button>
+            </a>
+        </article>
+    </section>
+</main>
+<footer class="contenedor-footer">
+    <div>
+        <h5>Datos del grupo</h5>
+        <p>Rinaldi Stefania - 38.522.183</p>
+        <p>Cristian Feldman - 33.557.055</p>
+        <p>Pugliese Federico - 38.200.197</p>
+        <p>Navarro Francisco Javier - 42.375.698</p>
+    </div>
+    <div class="menu-inferior">
+        <h5>Menu Inferior</h5>
+        <li><a href="establecimientos.html">Establecimientos</a></li>
+        <li><a href="inscripcion.html">Inscripcion</a></li>
+        <li><a href="calendario.html">Calendario</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </div>
+    <div class="redes">
+        <h5>Redes Sociales</h5>
+        <ul>
+            <li><a href="https://www.youtube.com/" class="youtube" target="_blank"></a></li>
+            <li><a href="https://www.instagram.com/" class="instagram" target="_blank"></a></li>
+            <li><a href="https://www.facebook.com/" class="facebook" target="_blank"></a></li>
+            <li><a href="https://twitter.com/" class="twitter" target="_blank"></a></li>
+            <li><a href="https://web.whatsapp.com/" class="whatsapp" target="_blank"></a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>

@@ -11,7 +11,7 @@
     <title>Instituto de Idiomas</title>
 </head>
 
-<body>
+<body id="inicio">
     <header>
         <img src="img/logo.svg" alt="logo">
         <nav id="menu_principal">
@@ -82,7 +82,7 @@
         </section>
         <section id="formulario" >
             <h2>BUSCÁ EL CURSO E INSCRIBITE</h2>
-            <form oninput= "nombreEstablecimiento.value = establecimiento.value" class="contenedorFormulario" method="GET">
+            <form class="contenedorFormulario" method="GET">
                 <div>
                     <label for="provincia">Selecciona un provincia</label>
                     <select name="provincia" id="provincia">
@@ -93,14 +93,14 @@
                         <option value="4">Mendoza</option>
                     </select>
                     <div class="informacion">
-                        <label for="nombre-establecimiento">Nombre del Establecimiento: </label>
+                        <label for="nombreEstablecimiento">Nombre del Establecimiento: </label>
                         <output id="nombreEstablecimiento" name="nombre" for="establecimiento">Instituto Superior de Lenguas Extranjeras</output>
-                        <label for="direccion-establecimiento">Dirección: </label>
-                        <output name="direccion-establecimiento" for="establecimiento">Carlos Pellegrini 1515</output>
-                        <label for="provincia-establecimiento">Provincia: </label>
-                        <output name="provincia-establecimiento" for="provincia">Capital Federal</output>
-                        <label for="email-establecimiento">Email: </label>
-                        <output name="email-establecimiento" for="email-establecimiento">isle@test.com</output>
+                        <label for="direccionEstablecimiento">Dirección: </label>
+                        <output name="direccionEstablecimiento" for="establecimiento">Carlos Pellegrini 1515</output>
+                        <label for="provinciaEstablecimiento">Provincia: </label>
+                        <output name="provinciaEstablecimiento" for="provincia">Capital Federal</output>
+                        <label for="emailEstablecimiento">Email: </label>
+                        <output name="emailEstablecimiento" for="email-establecimiento">isle@test.com</output>
                     </div>
                 </div>
                 <div>
@@ -137,11 +137,14 @@
                     </select>
                     <label for="precio">Precio</label>
                     <input type="text" name="precio" id="precio" value="$3000">
-                    <input type="button" value="INSCRIBITE">
+                    <button class="button">INSCRIBITE</button>
                 </div>
             </form>
         </section>
     </main>
+    <div class="irInicio">
+        <a href="#inicio"><img src="img/up.svg" alt=""></a>
+    </div>
     <footer class="contenedor-footer">
         <div>
             <h5>Datos del grupo</h5>
@@ -150,24 +153,21 @@
             <p>Pugliese Federico - 38.200.197</p>
             <p>Navarro Francisco Javier - 42.375.698</p>
         </div>
-        <div>
-            <nav class="menu-secundario">
-                <h5>Menu Inferior</h5>
-                 <ul>
-                     <li><a href="establecimientos.html">Establecimientos</a></li>
-                     <li><a href="inscripcion.html">Inscripcion</a></li>
-                     <li><a href="calendario.html">Calendario</a></li>
-                     <li><a href="contacto.html">Contacto</a></li>
-                 </ul>
-            </nav>
+        <div class="menu-inferior">
+            <h5>Menu Inferior</h5>
+            <li><a href="establecimientos.html">Establecimientos</a></li>
+            <li><a href="inscripcion.html">Inscripcion</a></li>
+            <li><a href="calendario.html">Calendario</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </div>
-
         <div class="redes">
             <h5>Redes Sociales</h5>
             <ul>
-                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li>
-                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="mailto:instituto.isi@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://www.youtube.com/" class="youtube" target="_blank"></a></li>
+                <li><a href="https://www.instagram.com/" class="instagram" target="_blank"></a></li>
+                <li><a href="https://www.facebook.com/" class="facebook" target="_blank"></a></li>
+                <li><a href="https://twitter.com/" class="twitter" target="_blank"></a></li>
+                <li><a href="https://web.whatsapp.com/" class="whatsapp" target="_blank"></a></li>
             </ul>
         </div>
     </footer>

@@ -127,6 +127,16 @@
     background-color: grey;
 }
 
+.contenedorFormulario .button{
+    display: inline;
+    color: white;
+    background: #074168;
+    border-radius: 12px;
+    width: 15%;
+    height: 29px;
+    left: 416px;
+}
+
 .instituto1{
     background-image: url(../img/cit-sede.png);
 }

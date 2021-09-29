@@ -143,3 +143,25 @@ a{
   background-size: cover;
 }
 /* FIN FOOTER */
+
+.irInicio{
+  margin: 10px;
+  padding: 0px 10px;
+  border-radius: 50%;
+  background-color: #074168;
+  display: flex;
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+  width: 30px;
+  opacity: 0.5;
+  flex-direction: column;
+  justify-content: right;
+}
+
+h3{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
