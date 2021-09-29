@@ -115,7 +115,10 @@ a{
   width: 35px;
   border-radius: 50%;
   display: block;
-  
+}
+
+.redes a:hover{
+  transform: scale(1.2);
 }
 
 .facebook {
