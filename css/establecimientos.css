@@ -1,19 +1,37 @@
-.contenedorEstablecimiento{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    margin-top: 100px;
-  }
-  
-  .contenedorEstablecimiento article{
+.contenedorEstablecimiento {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 100px;
+}
+
+.contenedorEstablecimiento article {
   width: calc(40% - 300px);
   box-sizing: border-box;
-  }
-  
-  .barraBusqueda {
-      height: 100%;
-      position: absolute;
-      text-align: center;
-      width: 100%;
-  }
+}
+
+.barraBusqueda {
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(170, 163, 163);
+  padding: 5px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  transition: background-color 0.7s, color 0.7s;
+}
+button:hover {
+  background-color: #084c79;
+  color: white;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
