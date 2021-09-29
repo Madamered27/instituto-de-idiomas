@@ -17,14 +17,18 @@
     margin-bottom: 5px;
   }
   button{
-    background-color: grey;
+    background-color: rgb(170, 163, 163);
     padding: 5px;
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
+    transition: background-color 0.7s, color 0.7s;
+    
   }
   button:hover{
-    background-color: blue;
+    background-color: #084c79;
+    color: white;
+    
   }
   .precio{
     font-weight: bold;
