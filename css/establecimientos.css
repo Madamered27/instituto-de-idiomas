@@ -1,21 +1,22 @@
 .contenedorEstablecimiento {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:space-between;
   margin-top: 100px;
-  box-sizing: border-box;
+  
 }
 
 .contenedorEstablecimiento article {
-  width: calc(50% - 0.5em);
+  width: calc(50% - 1em);
+  box-sizing: border-box;
+  margin-bottom: 1em;
+ 
 }
 
 .barraBusqueda {
-  height: 100%;
   position: absolute;
   text-align: center;
-  width: 100%;
+  right: 40%;
 }
 
 .contenedorEstablecimiento button {
@@ -31,9 +32,23 @@
   color: white;
 }
 
-.contenedorEstablecimiento img{
+.contenedorEstablecimiento img {
   max-width: 100%;
   height: auto;
   border: 2px solid black;
   border-radius: 12%;
+  height: 20em;
+  width: 45em;
 }
+
+h2{
+  padding-left: 0em;
+  text-align: left;
+  margin-left: 0em;
+  padding-bottom: 0.6em;
+}
+
+button{
+  margin-top: 1em;
+}
+
