@@ -153,13 +153,12 @@ a{
 
 
 /* FIN FOOTER */
-
 button{
   background-color: rgb(170, 163, 163);
-  padding: 0.5em;
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 2em;
+  padding: 5px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
   transition: background-color 0.7s, color 0.7s;
 }
 button:hover{
@@ -168,4 +167,5 @@ button:hover{
 }
 .precio{
   font-weight: bold;
+  padding-top: 10px;
 }
