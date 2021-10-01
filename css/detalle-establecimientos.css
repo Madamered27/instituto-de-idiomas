@@ -18,9 +18,10 @@
     flex-wrap: wrap;
   }
   .contenedor-detalles2 article{
-    width: 25%;
+    width: calc(25% - 0.5em);
     margin-top: 5px;
     margin-bottom: 30px;
+
   }
   button{
     background-color: rgb(170, 163, 163);
@@ -48,4 +49,7 @@
   h3{
     text-align: center;
     margin: 5em 0em 1em 0em;
+  }
+  article img{
+    max-width: 100%;
   }
