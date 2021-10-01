@@ -7,6 +7,12 @@
   .contenedor-detalles1 article{
     width: 45%;
   }
+
+  .contenedor-detalles1 img{
+    width: 500px;
+    height: 400px ;
+  }
+
   .contenedor-detalles1 p{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -21,13 +27,18 @@
     width: calc(25% - 0.5em);
     margin-top: 5px;
     margin-bottom: 30px;
-
   }
+
+  .contenedor-detalles2 img{
+    width: 280px;
+    height: 200px;
+  }
+
   button{
     background-color: rgb(170, 163, 163);
     padding: 5px;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
     border-radius: 28px;
     transition: background-color 0.7s, color 0.7s;
   }
@@ -37,6 +48,7 @@
   }
   .precio{
     font-weight: bold;
+    padding-top: 10px;
   }
   main img{
     border-radius: 1em;
@@ -53,3 +65,24 @@
   article img{
     max-width: 100%;
   }
+
+.descripcion{
+  padding-top: 10px;
+}
+
+.descripcion p{
+  display: inline;
+  font-weight: bold;
+}
+
+.descripcion ul {
+  padding-top: 15px;
+}
+
+.descripcion li{
+  padding: 5px 0px;
+}
+
+.descripcion h4 {
+  font-size: 1.5em;
+}
