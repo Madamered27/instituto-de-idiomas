@@ -37,4 +37,15 @@
   .precio{
     font-weight: bold;
   }
-  
+  main img{
+    border-radius: 1em;
+    border: 2px solid black;
+    box-shadow: 0.4em 0.3em 0.9em rgba(0,0,0,0.6);
+  }
+  h1{
+    margin-bottom: 1.2em;
+  }
+  h3{
+    text-align: center;
+    margin: 5em 0em 1em 0em;
+  }
