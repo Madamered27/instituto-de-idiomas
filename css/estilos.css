@@ -49,6 +49,8 @@ a{
   text-decoration: none
 }
 
+
+
 /* INICIO BARRA NAV */
 
 #menu_principal ul{
@@ -81,6 +83,7 @@ a{
 #menu_principal li:hover{
   transform: scale(1.2);
 }
+
 
 /* FIN BARRA NAV */
 
@@ -148,20 +151,21 @@ a{
 }
 
 
+
 /* FIN FOOTER */
 
 button{
   background-color: rgb(170, 163, 163);
-  padding: 5px;
+  padding: 0.5em;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  border-radius: 28px;
+  border-radius: 2em;
   transition: background-color 0.7s, color 0.7s;
 }
 button:hover{
   background-color: #084c79;
   color: white;
 }
-.precio {
+.precio{
   font-weight: bold;
 }
