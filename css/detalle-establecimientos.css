@@ -18,21 +18,23 @@
     flex-wrap: wrap;
   }
   .contenedor-detalles2 article{
-    width: 25%;
+    width: calc(25% - 0.5em);
     margin-top: 5px;
     margin-bottom: 30px;
+
   }
-  button{
-    background-color: grey;
-    padding: 5px;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
+  main img{
+    border-radius: 1em;
+    border: 2px solid black;
+    box-shadow: 0.4em 0.3em 0.9em rgba(0,0,0,0.6);
   }
-  button:hover{
-    background-color: blue;
+  h1{
+    margin-bottom: 1.2em;
   }
-  .precio{
-    font-weight: bold;
+  h3{
+    text-align: center;
+    margin: 5em 0em 1em 0em;
   }
-  
+  article img{
+    max-width: 100%;
+  }

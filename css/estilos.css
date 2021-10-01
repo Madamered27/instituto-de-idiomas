@@ -49,8 +49,6 @@ a{
   text-decoration: none
 }
 
-
-
 /* INICIO BARRA NAV */
 
 #menu_principal ul{
@@ -84,7 +82,6 @@ a{
   transform: scale(1.2);
 }
 
-
 /* FIN BARRA NAV */
 
 
@@ -115,7 +112,10 @@ a{
   width: 35px;
   border-radius: 50%;
   display: block;
-  
+}
+
+.redes a:hover{
+  transform: scale(1.2);
 }
 
 .facebook {
@@ -142,4 +142,26 @@ a{
   background-image: url(../img/icono-wp.jpg);
   background-size: cover;
 }
+
+.menu-inferior a:hover{
+  color: #bbbbbb;
+}
+
+
 /* FIN FOOTER */
+
+button{
+  background-color: rgb(170, 163, 163);
+  padding: 5px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  transition: background-color 0.7s, color 0.7s;
+}
+button:hover{
+  background-color: #084c79;
+  color: white;
+}
+.precio {
+  font-weight: bold;
+}

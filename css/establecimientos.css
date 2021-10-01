@@ -1,19 +1,55 @@
-.contenedorEstablecimiento{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    margin-top: 100px;
-  }
+.contenedorEstablecimiento {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin-top: 100px;
   
-  .contenedorEstablecimiento article{
-  width: calc(40% - 300px);
+}
+
+.contenedorEstablecimiento article {
+  width: calc(50% - 1em);
   box-sizing: border-box;
-  }
-  
-  .barraBusqueda {
-      height: 100%;
-      position: absolute;
-      text-align: center;
-      width: 100%;
-  }
+  margin-bottom: 1em;
+ 
+}
+
+.barraBusqueda {
+  position: absolute;
+  text-align: center;
+  right: 40%;
+}
+
+.contenedorEstablecimiento button {
+  background-color: rgb(170, 163, 163);
+  padding: 5px;
+  -webkit-border-radius: 28%;
+  -moz-border-radius: 28%;
+  border-radius: 28px;
+  transition: background-color 0.7s, color 0.7s;
+}
+.contenedorEstablecimiento button:hover {
+  background-color: #084c79;
+  color: white;
+}
+
+.contenedorEstablecimiento img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid black;
+  box-shadow: 0.4em 0.3em 0.9em rgba(0,0,0,0.6);
+  border-radius: 1em;
+  height: 20em;
+  width: 45em;
+}
+
+h2{
+  padding-left: 0em;
+  text-align: left;
+  margin-left: 0em;
+  padding-bottom: 0.6em;
+}
+
+button{
+  margin-top: 1em;
+}
+

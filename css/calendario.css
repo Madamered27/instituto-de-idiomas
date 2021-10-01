@@ -1,31 +1,50 @@
-#filtrar-sede{
+
+article img{
+  width: 280px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 12%;
+}
+
+#filtrar-sede {
     text-align: end;
     margin: 10px;
-  }
-  .contenedor-calendario li{
+}
+
+.contenedor-calendario li {
     list-style: none;
-  }
-  .contenedor-calendario{
+}
+
+.contenedor-calendario {
     display: flex;
-    flex-direction:row;
-    justify-content:space-around;
+    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
-  }
-  .contenedor-calendario article{
+}
+
+.contenedor-calendario article {
     width: 25%;
     margin-top: 5px;
     margin-bottom: 5px;
-  }
-  button{
-    background-color: grey;
-    padding: 5px;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-  }
-  button:hover{
-    background-color: blue;
-  }
-  .precio{
-    font-weight: bold;
-  }
+}
+
+.descripcion{
+  padding-top: 20px;
+}
+
+.descripcion p{
+  display: inline;
+  font-weight: bold;
+}
+
+.descripcion ul {
+    padding-top: 15px;
+}
+
+.descripcion li{
+    padding: 5px 0px;
+}
+
+.descripcion h4 {
+    font-size: 1.5em;
+}
