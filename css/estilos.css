@@ -150,6 +150,20 @@ a{
   color: #bbbbbb;
 }
 
-
-
 /* FIN FOOTER */
+button{
+  background-color: rgb(170, 163, 163);
+  padding: 5px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  transition: background-color 0.7s, color 0.7s;
+}
+button:hover{
+  background-color: #084c79;
+  color: white;
+}
+.precio{
+  font-weight: bold;
+  padding-top: 10px;
+}
