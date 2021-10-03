@@ -12,87 +12,96 @@
 </head>
 
 <body>
-    <header>
-        <img src="img/logo.svg" alt="logo">
-        <nav id="menu_principal">
+<header>
+    <img src="img/logo.svg" alt="logo">
+    <nav id="menu_principal">
+        <ul>
+            <li><a href="index.html" rel="noopener noreferrer">HOME</a></li>
+            <li><a href="sobre-nosotros.html" rel="noopener noreferrer">NOSOTROS</a></li>
+            <li><a href="establecimientos.html" rel="noopener noreferrer">ESTABLECIMIENTOS</a></li>
+            <li><a href="inscripcion.html" rel="noopener noreferrer">INSCRIPCIÓN</a></li>
+            <li><a href="calendario.html" rel="noopener noreferrer">CALENDARIO</a></li>
+            <li><a href="contacto.html" rel="noopener noreferrer">CONTACTO</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Inscripción</h1>
+    <section>
+        <article class="datosCursos">
             <ul>
-                <li><a href="index.html" rel="noopener noreferrer">HOME</a></li>
-                <li><a href="sobre-nosotros.html" rel="noopener noreferrer">NOSOTROS</a></li>
-                <li><a href="establecimientos.html" rel="noopener noreferrer">ESTABLECIMIENTOS</a></li>
-                <li><a href="inscripcion.html" rel="noopener noreferrer">INSCRIPCIÓN</a></li>
-                <li><a href="calendario.html" rel="noopener noreferrer">CALENDARIO</a></li>
-                <li><a href="contacto.html" rel="noopener noreferrer">CONTACTO</a></li>
+                <li><label>Curso:</label>
+                    <p id="nombreCurso">#######</p></li>
+                <li><label>Sede:</label>
+                    <p id="sede"> ##############################</p></li>
+                <li><label>Días Cursada:</label>
+                    <p id="dias">#########################</p></li>
+                <li><label>Fecha de Inicio:</label>
+                    <p id="fechaInicio">##/##/####</p></li>
+                <li><label>Precio:</label>
+                    <p id="precio">$####</p></li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Inscripción</h1>
-        <section>
-            <article>
-                <p>Inscripcion al curso de Inglés en la sede "Intercultural – lenguas extranjeras" </p>
-                <p>en el horario de Martes y Sábado de 13hs a 15hs.</p> 
-                <p>El curso de ingles inicia el dia 25/09/2021.</p>
-                <p>Precio final del curso es de $3000</p>
-            </article>
-            <article id="formulario">
-                <form class="contenedorFormulario" action="#openModal">
-                    <div>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingresar nombre " autofocus required>
-                        <label for="tel">Teléfono</label>
-                        <input type="text" name="tel" id="tel" placeholder="Ingresar teléfono" required>
-                        <label for="prov">Provincia</label>
-                        <input type="text" name="prov" id="prov" placeholder="Ingresar provincia" required>
-                    </div>
-                    <div>
-                        <label for="apellido">Apellido</label>
-                        <input type="text" id="apellido" placeholder="Ingresar apellido" required>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="Ingresar email" required>
-                        <label for="ciudad">Ciudad</label>
-                        <input type="text" name="ciudad" id="ciudad" placeholder="Ingresar ciudad" required>
-                        <button>INSCRIBITE</button>
-                    </div>
-                </form>
-            </article>
-        </section>
-        <div class="modalDialog" id="openModal">
-            <div>
-                <a href="#close" title="Close" class="close">X</a>
-                <h2>Gracias por su Inscripción</h2>
-                <p>Usted se ha inscripto al curso de Inglés, </p>
-                <p>en la sede "Intercultural – lenguas extranjeras" </p>
-                <p>Se le enviara un email posteriormente para ofrecerle</p>
-                <p>mas información</p>
-            </div>
-        </div>
-    </main>
-    <footer class="contenedor-footer">
+        </article>
+        <article id="formulario">
+            <h2>Complete sus datos</h2>
+            <form class="contenedorFormulario" action="#openModal">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresar nombre " autofocus required>
+                    <label for="tel">Teléfono</label>
+                    <input type="text" name="tel" id="tel" placeholder="Ingresar teléfono" required>
+                    <label for="prov">Provincia</label>
+                    <input type="text" name="prov" id="prov" placeholder="Ingresar provincia" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Ingresar apellido" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Ingresar email" required>
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" name="ciudad" id="ciudad" placeholder="Ingresar ciudad" required>
+                    <button>INSCRIBITE</button>
+                </div>
+            </form>
+        </article>
+    </section>
+    <div class="modalDialog" id="openModal">
         <div>
-            <h5>Datos del grupo</h5>
-            <p>Rinaldi Stefania - 38.522.183</p>
-            <p>Cristian Feldman - 33.557.055</p>
-            <p>Pugliese Federico - 38.200.197</p>
-            <p>Navarro Francisco Javier - 42.375.698</p>
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Gracias por su Inscripción</h2>
+            <p>Usted se ha inscripto al curso de Inglés, </p>
+            <p>en la sede "Intercultural – lenguas extranjeras" </p>
+            <p>Se le enviara un email posteriormente para ofrecerle</p>
+            <p>mas información</p>
         </div>
-        <div class="menu-inferior">
-            <h5>Menu Inferior</h5>
-            <li><a href="establecimientos.html">Establecimientos</a></li>
-            <li><a href="inscripcion.html">Inscripcion</a></li>
-            <li><a href="calendario.html">Calendario</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </div>
-        <div class="redes">
-            <h5>Redes Sociales</h5>
-            <ul>
-                <li><a href="https://www.youtube.com/" class="youtube" target="_blank"></a></li>
-                <li><a href="https://www.instagram.com/" class="instagram" target="_blank"></a></li>
-                <li><a href="https://www.facebook.com/" class="facebook" target="_blank"></a></li>
-                <li><a href="https://twitter.com/" class="twitter" target="_blank"></a></li>
-                <li><a href="https://web.whatsapp.com/" class="whatsapp" target="_blank"></a></li>
-            </ul>
-        </div>
-    </footer>
+    </div>
+</main>
+<footer class="contenedor-footer">
+    <div>
+        <h5>Datos del grupo</h5>
+        <p>Rinaldi Stefania - 38.522.183</p>
+        <p>Cristian Feldman - 33.557.055</p>
+        <p>Pugliese Federico - 38.200.197</p>
+        <p>Navarro Francisco Javier - 42.375.698</p>
+    </div>
+    <div class="menu-inferior">
+        <h5>Menu Inferior</h5>
+        <li><a href="establecimientos.html">Establecimientos</a></li>
+        <li><a href="inscripcion.html">Inscripcion</a></li>
+        <li><a href="calendario.html">Calendario</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </div>
+    <div class="redes">
+        <h5>Redes Sociales</h5>
+        <ul>
+            <li><a href="https://www.youtube.com/" class="youtube" target="_blank"></a></li>
+            <li><a href="https://www.instagram.com/" class="instagram" target="_blank"></a></li>
+            <li><a href="https://www.facebook.com/" class="facebook" target="_blank"></a></li>
+            <li><a href="https://twitter.com/" class="twitter" target="_blank"></a></li>
+            <li><a href="https://web.whatsapp.com/" class="whatsapp" target="_blank"></a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 
 </html>
