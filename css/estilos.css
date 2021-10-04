@@ -94,22 +94,31 @@ a{
   justify-content: space-around;
   text-align: justify;
   flex-wrap: wrap;
+  postion: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 .contenedor-footer div {
-  width: calc(33, 3% - 10px);
+  width: calc(33,3% - 10px);
 }
 
 .contenedor-footer div h5 {
   margin: 15px 0px;
   font-size: 15px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+}
+
+.contenedor-footer p{
+  text-align: justify;
 }
 
 .redes li {
   display: inline-block;
 }
 
+/* FIN DEL FOOTER*/
 .redes a{
   height: 35px;
   width: 35px;
