@@ -94,6 +94,7 @@ a{
   justify-content: space-around;
   text-align: justify;
   flex-wrap: wrap;
+  position: absolute;
   bottom: 0px;
   width: 100%;
 }
