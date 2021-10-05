@@ -94,8 +94,6 @@ a{
   justify-content: space-around;
   text-align: justify;
   flex-wrap: wrap;
-  position: absolute;
-  bottom: 0px;
   width: 100%;
 }
 
@@ -174,4 +172,28 @@ button:hover{
 .precio{
   font-weight: bold;
   padding-top: 10px;
+}
+
+.masArriba {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  opacity: 0.8;
+}
+
+.masArriba div{
+  position: sticky;
+}
+
+.masArriba a{
+  border-radius: 50%;
+  background-color: #084c79;
+  font-size: 30px;
+  padding: 0px 10px;
+  color: black;
+}
+
+.masArriba a:hover{
+  opacity: 1;
+  background-color: white;
 }
