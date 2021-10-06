@@ -24,16 +24,17 @@ p{
 
 .contenedorFormulario label{
     width: 48%;
-    padding: 2px 3px;
+    padding: 2px 2px;
     margin: 2px 10px;
     display: inline-block;
     font-size: 14px;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 .contenedorFormulario #tel,#nombre,#prov,#apellido,#email,#ciudad {
     width: 90%;
-    padding: 4px 2px;
+    padding: 4px 20px;
     margin: 9px 6px;
     display: inline-block;
     border: 1px solid #000;
